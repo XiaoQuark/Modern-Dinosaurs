@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+body {
+    margin: 0;
+    background-color:lightslategray;
+    color: black;
+    font-size: 1.3rem;
+}
+
+header {
+    margin: 0;
+    padding: 10vh 10vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(img/birds/Cassowary_head_frontal.webp);
+    height: 70vh;
+    background-position:20% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 8rem;
+    font-weight: 900;
+    text-align:left;
+    position: absolute;
+    top: 40%;
+    left: 10vw;
+    
+}
+
+main {
+    margin: 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    text-decoration: underline;
+    color: darkslategrey;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: darkslateblue;
+}
+
+.article-img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    margin: 1rem 1rem
+}
+
+article {
+    margin-top: 5rem
+}
+
+#top10 {
+    margin-top: 5rem;
+}
+
+ol {
+    margin: 5rem;
+    padding: 2rem 100px;
+    border: solid black;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: aliceblue;
+    background-color: darkslategrey;
+    max-width: fit-content;
+    border-radius: 15px;
+    
+}
+ul {
+    margin: 5rem;
+    padding: 2rem 100px;
+    border: solid black;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: aliceblue;
+    background-color: darkslategrey;
+    max-width: fit-content;
+    border-radius: 15px;
+}
+li {
+    margin: 10px
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+}
+
+button {
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    background-color: darkslategrey;
+    border-radius: 15px
+}
+
+.bird-article {
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    column-gap: 20px;
+
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+.gallery-img {
+    width: auto;
+    height: 300px;
+}
